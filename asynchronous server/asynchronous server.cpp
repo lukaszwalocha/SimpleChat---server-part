@@ -6,7 +6,8 @@ int main() {
 
 	try {
 		Server server;
-		server.startMainEventLoop();
+		server.startNewConnectionThread();
+		//server.startConnectionEventLoop();
 	}
 	catch (std::exception& e) {
 		std::cout << e.what() << std::endl;

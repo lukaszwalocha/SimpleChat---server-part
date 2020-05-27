@@ -1,14 +1,8 @@
-﻿  pch.cpp
-  asynchronous server.cpp
+﻿  Server.cpp
   Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
   - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
   - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
   Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
-  Server.cpp
-  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
-  - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
-  - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
-  Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
-c:\users\łukasz\source\repos\asynchronous server\simplechat---server-part\asynchronous server\server.cpp(75): warning C4101: "e": lokalna zmienna, do której nie istnieje odwołanie
-  Generowanie kodu...
+c:\users\łukasz\source\repos\asynchronous server\simplechat---server-part\asynchronous server\server.cpp(91): warning C4101: "e": lokalna zmienna, do której nie istnieje odwołanie
+c:\users\łukasz\source\repos\asynchronous server\simplechat---server-part\asynchronous server\server.cpp(156): warning C4101: "e": lokalna zmienna, do której nie istnieje odwołanie
   asynchronous server.vcxproj -> C:\Users\Łukasz\source\repos\asynchronous server\SimpleChat---server-part\Debug\asynchronous server.exe
